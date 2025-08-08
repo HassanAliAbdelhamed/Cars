@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RENTCARS</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body class="font-sans text-gray-800">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-sm">
+    <div class="container mx-auto flex flex-wrap items-center justify-between px-5 py-3">
+      <div class="flex items-center gap-3">
+        <img src="./assets/logo.png" alt="Logo" class="w-28 h-auto">
+      </div>
+      <ul class="hidden md:flex gap-7 font-medium">
+        <li class="cursor-pointer hover:text-blue-500">Become a renter</li>
+        <li class="cursor-pointer hover:text-blue-500">Rental deals</li>
+        <li class="cursor-pointer hover:text-blue-500">How it work</li>
+        <li class="cursor-pointer hover:text-blue-500">Why choose us</li>
+      </ul>
+      <div class="flex gap-5 items-center">
+        <h5 class="cursor-pointer">Sign in</h5>
+        <h5 class="text-white bg-blue-500 py-2 px-6 rounded-lg cursor-pointer">Sign Up</h5>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-white">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center  py-10 gap-10">
+      <div class="px-5">
+        <h1 class="text-4xl md:text-6xl font-bold mb-5">Find, book and rent a car <span class="text-blue-900">Easily</span></h1>
+        <p class="text-lg mb-6">Get a car wherever and whenever you need it with your IOS and Android device.</p>
+        <img src="./assets/store.png" alt="Store" class="w-60">
+      </div>
+      <div class="flex justify-end relative ">
+        <img src="./assets/Group.svg" class="absolute z-[0] top-0 right-0  opacity-30 w-3/4" alt="">
+        <img src="./assets/car 2 1.png" class="w-full max-w-lg z-[2]" alt="Car">
+      </div>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="container mx-auto bg-white shadow-lg rounded-lg flex flex-wrap md:flex-nowrap justify-evenly items-center p-5 gap-5 mt-10 relative z-10 lg:w-[70%] ">
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-location-dot text-gray-400 text-xl"></i>
+        <div>
+          <p>Location</p>
+          <p class="opacity-60 text-sm">Search your location</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-calendar-days text-gray-400 text-xl"></i>
+        <div>
+          <p>Date</p>
+          <p class="opacity-60 text-sm">Search your Date</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-4">
+        <i class="fa-solid fa-table text-gray-400 text-xl"></i>
+        <div>
+          <p>Recieve</p>
+          <p class="opacity-60 text-sm">Search your location</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- How It Works -->
+  <section class="container mx-auto bg-white px-5 text-center py-16 relative z-[2]">
+    <p class="text-blue-600 rounded-md mb-10 bg-blue-100 px-6 py-2 inline-block">HOW IT WORK</p>
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
+      <div>
+        <i class="fa-solid fa-location-dot text-blue-400 bg-blue-100 p-4 rounded-lg text-4xl mb-3"></i>
+        <p class="font-semibold">Choose location</p>
+        <p class="opacity-60 text-sm">Choose your and find your best car</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-user-gear text-blue-400 bg-blue-100 p-4 rounded-lg text-4xl mb-3"></i>
+        <p class="font-semibold">Pick-up date</p>
+        <p class="opacity-60 text-sm">Select your pick up date and time to book your car</p>
+      </div>
+      <div>
+        <i class="fa-solid fa-spinner text-blue-400 bg-blue-100 p-4 rounded-lg text-4xl mb-3"></i>
+        <p class="font-semibold">Book your car</p>
+        <p class="opacity-60 text-sm">Book your car and we will deliver it directly to you</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center my-20">
+    <div class="relative">
+      <img src="./assets/Audi 1.png" alt="" class="w-full max-w-md">
+      <img src="./assets/Vector.png" alt="" class="absolute left-0 top-0 h-96 z-[-1]">
+    </div>
+    <div class="px-5">
+      <p class="text-blue-600 bg-blue-100 px-6 py-2 inline-block rounded-md mb-4">HOW IT WORK</p>
+      <h3 class="text-3xl font-bold mb-6">We offer the best experience with our rental deals</h3>
+      <div class="space-y-5">
+        <div class="flex justify-start items-center gap-4">
+          <i class="fa-solid fa-lock text-blue-400 bg-blue-100 p-2 rounded-lg"></i>
+          <div>
+            <p class="font-bold">Best price guaranteed</p>
+            <p class="opacity-60 text-sm">Find a lower price? We’ll refund you 100% of the difference.</p>
+          </div>
+        </div>
+        <div class="flex justify-start items-center gap-4">
+          <i class="fa-regular fa-circle-user text-blue-400 bg-blue-100 p-2 rounded-lg"></i>
+          <div>
+            <p class="font-bold">Experience driver</p>
+            <p class="opacity-60 text-sm">We have many experienced drivers for you.</p>
+          </div>
+        </div>
+        <div class="flex justify-start items-center gap-4">
+          <i class="fa-solid fa-dollar-sign text-blue-400 bg-blue-100 p-2 rounded-lg"></i>
+          <div>
+            <p class="font-bold">24 hour car delivery</p>
+            <p class="opacity-60 text-sm">Book anytime and we deliver it to you.</p>
+          </div>
+        </div>
+        <div class="flex justify-start items-center gap-4">
+          <i class="fa-solid fa-cloud text-blue-400 bg-blue-100 p-2 rounded-lg"></i>
+          <div>
+            <p class="font-bold">Flexible booking</p>
+            <p class="opacity-60 text-sm">Easily change or cancel your booking anytime.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Cars -->
+  <section class="container mx-auto px-5 my-20 text-center">
+    <p class="text-blue-600 bg-blue-100 px-6 py-2 inline-block rounded-md mb-4">POPULAR RENTAL DEALS</p>
+    <h4 class="text-3xl md:text-5xl font-bold">Most popular cars rental deals</h4>
+    <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-8 mt-12">
+      <div class="shadow-lg rounded-xl p-6 flex flex-col items-start">
+        <img src="./assets/car1.png" class="mb-6 w-full" alt="">
+        <h3 class="font-semibold">Jaguar XE L P250</h3>
+        <div class="flex justify-between w-full mt-4">
+          <p>Price</p>
+          <h5><span class="font-bold">$1,800</span> /day</h5>
+        </div>
+        <button class="mt-4 bg-blue-600 text-white px-6 py-2 rounded-md w-full">Rent Now</button>
+      </div>
+      <div class="shadow-lg rounded-xl p-6 flex flex-col items-start">
+        <img src="./assets/car2.png" class="mb-6 w-full" alt="">
+        <h3 class="font-semibold">Jaguar XE L P250</h3>
+        <div class="flex justify-between w-full mt-4">
+          <p>Price</p>
+          <h5><span class="font-bold">$1,800</span> /day</h5>
+        </div>
+        <button class="mt-4 bg-blue-600 text-white px-6 py-2 rounded-md w-full">Rent Now</button>
+      </div>
+      <div class="shadow-lg rounded-xl p-6 flex flex-col items-start">
+        <img src="./assets/car3.png" class="mb-6 w-full" alt="">
+        <h3 class="font-semibold">Jaguar XE L P250</h3>
+        <div class="flex justify-between w-full mt-4">
+          <p>Price</p>
+          <h5><span class="font-bold">$1,800</span> /day</h5>
+        </div>
+        <button class="mt-4 bg-blue-600 text-white px-6 py-2 rounded-md w-full">Rent Now</button>
+      </div>
+      <div class="shadow-lg rounded-xl p-6 flex flex-col items-start">
+        <img src="./assets/car4.png" class="mb-6 w-full" alt="">
+        <h3 class="font-semibold">Jaguar XE L P250</h3>
+        <div class="flex justify-between w-full mt-4">
+          <p>Price</p>
+          <h5><span class="font-bold">$1,800</span> /day</h5>
+        </div>
+        <button class="mt-4 bg-blue-600 text-white px-6 py-2 rounded-md w-full">Rent Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download App -->
+  <section class="container mx-auto px-5 grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
+    <div class="relative">
+      <h1 class="text-3xl md:text-5xl font-bold mb-5">Download Rentcars App for <span class="text-blue-900">FREE</span></h1>
+      <p class="mb-6">Get a car wherever and whenever you need it with your IOS and Android device.</p>
+      <img src="./assets/store.png" alt="Store" class="w-52">
+      <img src="./assets/Vector2.png" class="absolute top-0 left-0 z-[-1] h-80" alt="">
+    </div>
+    <div class="flex justify-center">
+      <img src="./assets/iPhone 14 Pro Space Black Mockup.png" alt="" class="w-full max-w-sm">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-[#0A1F33] text-white px-6 md:px-20 py-10">
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+      <!-- Logo & Contact -->
+      <div>
+        <h2 class="font-bold text-lg mb-4">RENTCARS</h2>
+        <div class="flex items-start gap-3 mb-3">
+          <i class="fa-solid fa-location-dot text-blue-400 mt-1"></i>
+          <p>23 June<br> Aswan, Egypt</p>
+        </div>
+        <div class="flex items-center gap-3 mb-3">
+          <i class="fa-solid fa-phone text-blue-400"></i>
+          <p>+20 111 4220 543</p>
+        </div>
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-envelope text-blue-400"></i>
+          <p>hassan@gmail.com</p>
+        </div>
+      </div>
+      <!-- Our Product -->
+      <div>
+        <h3 class="font-semibold mb-4">Our Product</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li>Career</li>
+          <li>Car</li>
+          <li>Packages</li>
+          <li>Features</li>
+          <li>Priceline</li>
+        </ul>
+      </div>
+      <!-- Resources -->
+      <div>
+        <h3 class="font-semibold mb-4">Resources</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li>Download</li>
+          <li>Help Centre</li>
+          <li>Guides</li>
+          <li>Partner Network</li>
+          <li>Cruises</li>
+          <li>Developer</li>
+        </ul>
+      </div>
+      <!-- About Rentcars -->
+      <div>
+        <h3 class="font-semibold mb-4">About Rentcars</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li>Why choose us</li>
+          <li>Our Story</li>
+          <li>Investor Relations</li>
+          <li>Press Center</li>
+          <li>Advertise</li>
+        </ul>
+      </div>
+      <!-- Follow Us -->
+      <div>
+        <h3 class="font-semibold mb-4">Follow Us</h3>
+        <div class="flex gap-4 text-gray-300 text-xl">
+          <i class="fa-brands fa-facebook cursor-pointer hover:text-white"></i>
+          <i class="fa-brands fa-instagram cursor-pointer hover:text-white"></i>
+          <i class="fa-brands fa-youtube cursor-pointer hover:text-white"></i>
+        </div>
+      </div>
+    </div>
+    <hr class="border-gray-700 my-6">
+    <p class="text-center text-gray-400 text-sm">
+      Copyright 2025 - Rentcars, All Rights Reserved
+    </p>
+  </footer>
+
+</body>
+</html>
